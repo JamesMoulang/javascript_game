@@ -6,9 +6,11 @@ ctx.fillRect(0,0,150,75);
 ctx.font = "30px Times";
 ctx.fillText("Hello World",10,50);
 
-while (true) {
-	update();
-	draw();
+function startLoop() {
+	while (true) {
+		update();
+		draw();
+	}
 }
 
 function update() {
