@@ -13,10 +13,12 @@ function startLoop() {
 	}
 }
 
-function update() {
 
+
+function update() {
+	
 }
 
 function draw() {
-
+	
 }
