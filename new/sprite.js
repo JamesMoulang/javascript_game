@@ -19,6 +19,7 @@ Sprite.prototype.draw = function(ctx, x, y) {
 };
 
 function initSprites(img) {
+	mid = new Sprite(img, 40, 0, 20, 20);
 	up = new Sprite(img, 20, 0, 20, 20 );
 	left = new Sprite( img, 0, 20, 20, 20 );
 	down = new Sprite( img, 20, 40, 20, 20 );
