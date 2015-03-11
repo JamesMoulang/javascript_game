@@ -23,5 +23,4 @@ function initSprites(img) {
 	left = new Sprite( img, 0, 20, 20, 20 );
 	down = new Sprite( img, 20, 40, 20, 20 );
 	right = new Sprite( img, 40, 20, 20, 20 );
-
 }
